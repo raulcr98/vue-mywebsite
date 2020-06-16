@@ -1,0 +1,83 @@
+.margin-bottom-20 {
+  margin-bottom: 20pt;
+}
+
+.margin-top-20 {
+  margin-top: 20pt;
+}
+
+.pt {
+  padding-top: 1em;
+}
+
+.mr {
+  margin-right: 12px;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 20px
+}
+
+#press, #projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#press > .column, #projects > .column {
+  margin: 1em;
+}
+
+#press div, #projects div {
+  transition: .3s ease all
+}
+
+.press:hover {
+  box-shadow: rgba(1, 1, 1, .2) 2px 2px 5px
+}
+
+@media only screen and (max-width: 768px) {
+  #press, #projects {
+    display: flex;
+    flex-direction: column !important;
+  }
+  #projects div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .media-content h2 {
+    text-align: center !important;
+  }
+  .media-content p {
+    text-align: center !important;
+  }
+}
+
+.card {
+  border-radius: 10pt;
+}
+
+.card-image figure {
+  overflow: hidden;
+  min-height: 120pt;
+  max-height: 120pt;
+  border-radius: 10pt
+}
+
+.card-image figure img {
+  width: 100%;
+}
+
+#projects a {
+  display: flex;
+  flex-direction: row;
+}
+
+#projects a .card-image {
+  max-width: 160px;
+  min-width: 160px;
+}

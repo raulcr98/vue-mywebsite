@@ -1,0 +1,38 @@
+{
+  "name": "cubapod",
+  "version": "1.0.0",
+  "description": "El directorio de podcasts producidos por cubanos",
+  "author": "Carlos Lugones",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "chart.js": "^2.9.3",
+    "htmlparser2": "^4.1.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
+    "nuxt-rfg-icon": "^0.6.4",
+    "rss-parser": "^3.8.0",
+    "vue-apexcharts": "^1.5.3",
+    "vue-chartjs": "^3.5.0",
+    "vue-tweet-embed": "^2.4.0",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}

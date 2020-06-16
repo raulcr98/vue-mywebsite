@@ -1,0 +1,44 @@
+[
+  {
+    "name": "CubaPod",
+    "img": "https://cubapod.net/img/cubapod.jpg",
+    "description": "El directorio de podcasts producidos por cubanos.",
+    "url": "https://cubapod.net/"
+  },
+  {
+    "name": "Binary Coffee",
+    "img": "https://raw.githubusercontent.com/dcs-community/our-identity/master/v2/identity/binarycoffee_2.0.1.png",
+    "description": "Binary Coffee es un proyecto que tiene como objetivo unir a todos los desarrolladores cubanos y convertirse en el espacio donde puedan compartir sus ideas y experiencias.",
+    "url": "https://binary-coffee.dev/"
+  },
+  {
+    "name": "SaldoXpress",
+    "img": "http://saldoxpress.herokuapp.com/static/SaldoXpress.996d1edc4745.png",
+    "description": "Bot que conecta a vendedores de saldo y recargas con clientes potenciales. Permite a los usuarios ganar dinero con referidos.",
+    "url": "http://saldoxpress.herokuapp.com"
+  },
+  {
+    "name": "Binary Coffee Bot",
+    "img": "https://raw.githubusercontent.com/dcs-community/our-identity/master/v2/identity/binarycoffee_2.0.1.png",
+    "description": "Bot para publicar desde un feed rss a un canal/grupo de Telegram los últimos artículos.",
+    "url": "https://github.com/dcs-community/binarycoffee_bot"
+  },
+  {
+    "name": "Fix Etecsa",
+    "img": "https://raw.githubusercontent.com/dcs-community/fix-etecsa/master/icon.png",
+    "description": "Extensión para Chrome que se utiliza para conocer la cantidad de horas de la cuenta nauta se te han descontado de más por errores de ETECSA.",
+    "url": "https://github.com/dcs-community/fix-etecsa"
+  },
+  {
+    "name": "Beisbol Cubano Bot",
+    "img": "https://raw.githubusercontent.com/raulcr98/beisbolcubano_bot/master/logo.png",
+    "description": "",
+    "url": "https://github.com/raulcr98/beisbolcubano_bot/"
+  },
+  {
+    "name": "Team Book Scooby Doo",
+    "img": "https://raw.githubusercontent.com/raulcr98/teambook-scooby-doo/master/logo.png",
+    "description": "",
+    "url": "https://github.com/raulcr98/teambook-scooby-doo"
+  }
+]
