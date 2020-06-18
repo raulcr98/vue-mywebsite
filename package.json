@@ -1,8 +1,8 @@
 {
-  "name": "cubapod",
+  "name": "vue-mywebsite",
   "version": "1.0.0",
-  "description": "El directorio de podcasts producidos por cubanos",
-  "author": "Carlos Lugones",
+  "description": "",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",
