@@ -1,6 +1,5 @@
 <template>
   <div>
-    <layout-header size="is-small" />
     <section class="section margin-top-20">
       <h2 class="subtitle has-text-centered">Mis Artículos</h2>
       <div class="container is-widescreen">
@@ -9,7 +8,7 @@
         </p>
         <div id="press" class="columns is-12">
           <div
-            v-for="post in posts.reverse()"
+            v-for="post in posts"
             :key="post[0]"
             class="is-narrow column is-4 card press"
           >

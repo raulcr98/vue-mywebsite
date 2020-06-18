@@ -1,6 +1,5 @@
 <template>
   <div>
-    <layout-header size="is-small" />
     <section class="section margin-top-20">
       <h2 class="subtitle has-text-centered">Mis Proyectos</h2>
       <div class="container is-widescreen">
