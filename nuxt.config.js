@@ -78,7 +78,7 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-165600545-1'
+        id: 'UA-163331576-1'
       }
     ],
 
@@ -90,7 +90,7 @@ export default {
         staticPath: 'static',
         masterPicture: 'static/favicon.png',
         rfg: {
-          masterPicture: 'favicon.png',
+          masterPicture: 'static/favicon.png',
           iconsPath: '/',
           design: {
             ios: {
@@ -121,7 +121,7 @@ export default {
               pictureAspect: 'shadow',
               themeColor: '#FFDA17',
               manifest: {
-                name: 'CubaPod',
+                name: 'Raúl C. Rivero',
                 startUrl: 'https://raulcr98.me',
                 display: 'standalone',
                 orientation: 'notSet',
