@@ -32,58 +32,30 @@
         </template>
       </b-navbar>
     </template>
-    <div :class="active ? 'modal is-active' : 'modal'">
-      <div class="modal-background"></div>
-      <div class="modal-content columns">
-        <div class="column"></div>
-        <section
-          class="hero is-white column is-three-fifths"
-          style="border-radius: 10pt"
-        >
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">
-                Suscríbete a mi boletín
-              </h1>
-              <form action="">
-                <div class="field">
-                  <label class="label">Correo</label>
-                  <div class="control has-icons-left has-icons-right">
-                    <input class="input" type="email" placeholder="Correo" />
-                    <span class="icon is-small is-left">
-                      <b-icon icon="email"></b-icon>
-                    </span>
-                    <span class="icon is-small is-right">
-                      <i class="fas fa-exclamation-triangle"></i>
-                    </span>
-                  </div>
-                </div>
-                <div class="field is-grouped">
-                  <div class="control">
-                    <button class="button is-success">Suscríbete</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
-        <div class="column"></div>
-      </div>
-      <button
-        class="modal-close is-large"
-        aria-label="close"
-        @click="active = false"
-      ></button>
-    </div>
+    <Suscribe
+      :active="active"
+      @close="
+        ($payload) => {
+          closeModal()
+        }
+      "
+    />
     <nuxt />
   </div>
 </template>
 
 <script>
+import Suscribe from '~/components/Suscribe.vue'
 export default {
+  components: { Suscribe },
   data() {
     return {
       active: false
+    }
+  },
+  methods: {
+    closeModal() {
+      this.active = false
     }
   }
 }
