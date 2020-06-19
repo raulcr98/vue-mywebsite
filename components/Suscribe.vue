@@ -115,6 +115,14 @@ export default {
           })
           this.closeModal()
         })
+        .catch(() => {
+          this.$buefy.toast.open({
+            message: 'Ha ocurrido algo por favor pruebe nuevamente!',
+            type: 'is-danger',
+            position: 'is-bottom',
+            duration: 5000
+          })
+        })
     },
     closeModal() {
       this.active = false
