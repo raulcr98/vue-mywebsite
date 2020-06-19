@@ -107,6 +107,12 @@ export default {
           axiosConfig
         )
         .then(() => {
+          this.$buefy.toast.open({
+            message: 'Te has suscrito satisfactoriamente a mi lista de correo!',
+            type: 'is-success',
+            position: 'is-bottom',
+            duration: 5000
+          })
           this.closeModal()
         })
     },
