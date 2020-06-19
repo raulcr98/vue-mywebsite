@@ -25,7 +25,7 @@
                     required
                   />
                   <span class="icon is-small is-left">
-                    <b-icon icon="alert"></b-icon>
+                    <b-icon icon="account"></b-icon>
                   </span>
                   <span class="icon is-small is-right">
                     <i class="fas fa-exclamation-triangle"></i>
