@@ -12,7 +12,7 @@
             :key="competition.id"
             class="is-narrow column is-8 card press"
           >
-            <div v-if="competition.img" class="card-image">
+            <div v-if="competition.img != null" class="card-image">
               <figure class="image">
                 <img :src="competition.img" :alt="competition.name" />
               </figure>

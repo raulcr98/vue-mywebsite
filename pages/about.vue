@@ -22,8 +22,7 @@
         <p class="has-text-centered">
           Comencé a participar desde el pre-universitario en competiciones
           relacionadas con la programación y la informática, a diferentes
-          niveles y en las que he obtenido resultados satisfactorios. Puedes ver
-          más detalles en <a href="/competitions/">Competencias</a>.
+          niveles y en las que he obtenido resultados satisfactorios.
         </p>
       </div>
     </section>
@@ -35,8 +34,6 @@
           algo. En la Universidad de Ciencias informáticas y por el movimiento
           de programación competitiva tuve la suerte de formar parte de varios
           campamentos caribeños donde conocí gente entusiasta y muy preparada.
-          Puedes ver más detalles en
-          <a href="/events/">Eventos</a>.
         </p>
       </div>
     </section>
