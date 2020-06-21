@@ -5,7 +5,8 @@
         <h1 class="title is-1">Raúl C. Rivero</h1>
         <img class="photo" src="banner1.jpg" alt="" />
         <p class="pt">
-          Hola mi nombre es Raúl y soy desarrollador web nacido en Cuba
+          Hola mi nombre es Raúl y soy desarrollador web. Puedes leer más
+          <a href="/about/">sobre mí</a>.
         </p>
         <div class="pt">
           <a v-for="social in socials" :key="social.name" :href="social.url">
