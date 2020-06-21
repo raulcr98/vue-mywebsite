@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section margin-top-20">
-      <h2 class="subtitle has-text-centered">Mis Artículos</h2>
+      <h1 class="title has-text-centered">Mis Artículos</h1>
       <div class="container is-widescreen">
         <p class="has-text-centered margin-bottom-20">
           Algunos de mis artículos para diferentes plataformas online
@@ -21,7 +21,7 @@
               <div class="card-content">
                 <div class="media">
                   <div class="media-content">
-                    <p class="title is-4">{{ post[1] }}</p>
+                    <h2 class="title is-4">{{ post[1] }}</h2>
                   </div>
                 </div>
               </div>

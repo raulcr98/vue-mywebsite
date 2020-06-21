@@ -1,0 +1,105 @@
+[
+  {
+    "id": "0",
+    "name": "ICPC Caribbean Finals",
+    "img": null,
+    "participations": [
+      {
+        "year": "2018",
+        "score": "Lugar 13"
+      },
+      {
+        "year": "2019",
+        "score": "Lugar 8"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "ICPC Caribbean National Contest",
+    "img": null,
+    "participations": [
+      {
+        "year": "2014",
+        "score": "Lugar 69 (Invitado)"
+      },
+      {
+        "year": "2016",
+        "score": "Lugar 17 (Invitado)"
+      },
+      {
+        "year": "2017",
+        "score": "Lugar 36"
+      },
+      {
+        "year": "2018",
+        "score": "Lugar 14"
+      },
+      {
+        "year": "2019",
+        "score": "Lugar 10"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "ICPC Caribbean Local Contest",
+    "img": null,
+    "participations": [
+      {
+        "year": "2014",
+        "score": "Lugar 39 (Invitado)"
+      },
+      {
+        "year": "2015",
+        "score": "Lugar 86 (Invitado)"
+      },
+      {
+        "year": "2016",
+        "score": "Lugar 59 (Invitado)"
+      },
+      {
+        "year": "2017",
+        "score": "Lugar 68"
+      },
+      {
+        "year": "2018",
+        "score": "Lugar 28"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Olimpiada Nacional de Informatica",
+    "img": null,
+    "participations": [
+      {
+        "year": "2014",
+        "score": "Medalla de Plata"
+      },
+      {
+        "year": "2015",
+        "score": "Medalla de Plata"
+      },
+      {
+        "year": "2016",
+        "score": "Medalla de Plata"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Global Game Jam",
+    "img": null,
+    "participations": [
+      {
+        "year": "2017",
+        "score": "Universidad de las Ciencias Informáticas (UCI)"
+      },
+      {
+        "year": "2018",
+        "score": "Universidad de las Ciencias Informáticas (UCI)"
+      }
+    ]
+  }
+]
