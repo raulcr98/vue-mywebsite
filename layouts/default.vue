@@ -23,26 +23,19 @@
         <template slot="end">
           <b-navbar-item tag="div">
             <div class="buttons">
-              <button
-                class="button is-primary is-rounded"
-                @click="active = true"
-              >
-                <strong>Suscríbete a mi boletín</strong>
-                <b-icon icon="mail" style="margin-left: 5pt"></b-icon>
-              </button>
+              <Suscribe
+                :active="active"
+                @close="
+                  ($payload) => {
+                    closeModal()
+                  }
+                "
+              />
             </div>
           </b-navbar-item>
         </template>
       </b-navbar>
     </template>
-    <Suscribe
-      :active="active"
-      @close="
-        ($payload) => {
-          closeModal()
-        }
-      "
-    />
     <nuxt />
   </div>
 </template>
@@ -50,16 +43,6 @@
 <script>
 import Suscribe from '~/components/Suscribe.vue'
 export default {
-  components: { Suscribe },
-  data() {
-    return {
-      active: false
-    }
-  },
-  methods: {
-    closeModal() {
-      this.active = false
-    }
-  }
+  components: { Suscribe }
 }
 </script>
