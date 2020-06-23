@@ -38,25 +38,6 @@
   box-shadow: rgba(1, 1, 1, .2) 2px 2px 5px
 }
 
-@media only screen and (max-width: 768px) {
-  #press, #projects {
-    display: flex;
-    flex-direction: column !important;
-  }
-  #projects div a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .media-content h2 {
-    text-align: center !important;
-  }
-  .media-content p {
-    text-align: center !important;
-  }
-}
-
 .card {
   border-radius: 10pt;
 }
@@ -92,4 +73,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.navbar-start a {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-start a:hover {
+  border-bottom: 2px solid #7957d5;
+}
+
+@media only screen and (max-width: 768px) {
+  #press, #projects {
+    display: flex;
+    flex-direction: column !important;
+  }
+  #projects div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .media-content h2 {
+    text-align: center !important;
+  }
+  .media-content p {
+    text-align: center !important;
+  }
+  .navbar-start a {
+    border-bottom: none;
+  }
+  .navbar-start a:hover {
+    border-bottom: none;
+  }
 }
