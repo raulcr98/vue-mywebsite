@@ -50,15 +50,3 @@
     </section>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      competitions: require('~/data/competitions.json')
-    }
-  }
-}
-</script>
-
-<style></style>
