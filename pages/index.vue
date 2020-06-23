@@ -5,9 +5,9 @@
         <div id="center" class="container">
           <h1 class="title is-1">Raúl C. Rivero</h1>
           <img class="photo" src="banner1.jpg" alt="" />
-          <p class="pt">
+          <p class="pt has-text-centered">
             Hola mi nombre es Raúl y soy desarrollador web. Puedes leer más
-            <a href="/about/">sobre mí</a>.
+            <nuxt-link to="/about/">sobre mí</nuxt-link>.
           </p>
           <div class="pt">
             <a v-for="social in socials" :key="social.name" :href="social.url">
