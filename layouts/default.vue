@@ -23,7 +23,7 @@
         <template slot="end">
           <b-navbar-item tag="div">
             <div class="buttons">
-              <Suscribe />
+              <Subscribe />
             </div>
           </b-navbar-item>
         </template>
@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import Suscribe from '~/components/Suscribe.vue'
+import Subscribe from '~/components/Subscribe.vue'
 export default {
-  components: { Suscribe }
+  components: { Subscribe }
 }
 </script>

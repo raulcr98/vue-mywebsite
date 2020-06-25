@@ -26,11 +26,11 @@
                   <label class="label">Nombre</label>
                   <div class="control has-icons-left has-icons-right">
                     <input
+                      v-model="form.name"
                       class="input"
                       type="text"
                       name="name"
                       placeholder="Nombre"
-                      v-model="form.name"
                       required
                     />
                     <span class="icon is-small is-left">
@@ -45,11 +45,11 @@
                   <label class="label">Correo</label>
                   <div class="control has-icons-left has-icons-right">
                     <input
+                      v-model="form.email"
                       class="input"
                       type="email"
                       name="email"
                       placeholder="Correo"
-                      v-model="form.email"
                       required
                     />
                     <span class="icon is-small is-left">
