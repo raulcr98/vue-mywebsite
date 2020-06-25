@@ -82,18 +82,13 @@
 
 <script>
 export default {
-  props: {
-    active: {
-      type: Boolean,
-      default: () => false
-    }
-  },
   data() {
     return {
       form: {
         name: '',
         email: ''
-      }
+      },
+      active: false
     }
   },
   methods: {

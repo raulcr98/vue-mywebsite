@@ -23,14 +23,7 @@
         <template slot="end">
           <b-navbar-item tag="div">
             <div class="buttons">
-              <Suscribe
-                :active="active"
-                @close="
-                  ($payload) => {
-                    closeModal()
-                  }
-                "
-              />
+              <Suscribe />
             </div>
           </b-navbar-item>
         </template>
