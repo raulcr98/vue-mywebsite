@@ -23,7 +23,7 @@
     "description": "Bot que conecta a vendedores de saldo y recargas con clientes potenciales. Permite a los usuarios ganar dinero con referidos.",
     "url": "http://saldoxpress.herokuapp.com",
     "tags": [
-      "django", "python-telegram-bot"
+      "django", "python-telegram-bot", "heroku"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "description": "Lite Searcher for Unsplash Plataform.",
     "url": "https://raulcr98.me/unsplash-lite-searcher/",
     "tags": [
-      "vue"
+      "vue", "github-pages"
     ]
   },
   {

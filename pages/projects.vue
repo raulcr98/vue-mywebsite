@@ -27,7 +27,7 @@
                   <span
                     v-for="tag in project.tags"
                     :key="tag"
-                    class="tag is-primary"
+                    class="tag"
                     style="margin-right: 5px"
                   >
                     {{ tag }}
