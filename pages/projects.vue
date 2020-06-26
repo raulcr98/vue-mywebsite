@@ -23,6 +23,16 @@
                   <h2 class="title is-4">{{ project.name }}</h2>
                   <p>{{ project.description }}</p>
                 </div>
+                <div class="media-content" style="margin-top: 10px">
+                  <span
+                    v-for="tag in project.tags"
+                    :key="tag"
+                    class="tag is-primary"
+                    style="margin-right: 5px"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
                 <div class="media-content">
                   <a class="button is-dark" :href="project.url">
                     <b-icon icon="eye" style="margin-right: 5px"> </b-icon>
