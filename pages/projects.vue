@@ -8,25 +8,29 @@
         </p>
         <div id="projects" class="columns is-12">
           <div
-            v-for="project in posts"
+            v-for="project in projects"
             :key="project.name"
             class="is-narrow column is-8 card press"
           >
-            <a :href="project.url">
-              <div class="card-image">
-                <figure class="image">
-                  <img :src="project.img" :alt="project.name" />
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <h2 class="title is-4">{{ project.name }}</h2>
-                    <p>{{ project.description }}</p>
-                  </div>
+            <div class="card-image">
+              <figure class="image">
+                <img :src="project.img" :alt="project.name" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <h2 class="title is-4">{{ project.name }}</h2>
+                  <p>{{ project.description }}</p>
+                </div>
+                <div class="media-content">
+                  <a class="button is-dark" :href="project.url">
+                    <b-icon icon="eye" style="margin-right: 5px"> </b-icon>
+                    Ver
+                  </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -38,10 +42,19 @@
 export default {
   data() {
     return {
-      posts: require('~/data/projects.json')
+      projects: require('~/data/projects.json')
     }
   }
 }
 </script>
 
-<style></style>
+<style scoped>
+.media {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-content:last-of-type {
+  margin-top: 15px;
+}
+</style>

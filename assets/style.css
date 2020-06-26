@@ -53,14 +53,18 @@
   height: 100%;
 }
 
-#projects a {
+#projects .card {
   display: flex;
   flex-direction: row;
 }
 
-#projects a .card-image {
+#projects .card .card-image {
   max-width: 160px;
   min-width: 160px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #my-banner {
@@ -88,12 +92,6 @@
     display: flex;
     flex-direction: column !important;
   }
-  #projects div a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .media-content h2 {
     text-align: center !important;
   }
@@ -105,5 +103,15 @@
   }
   .navbar-start a:hover {
     border-bottom: none;
+  }
+  #projects .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #projects .card .media {
+    justify-content: center;
+    align-items: center;
   }
 }
