@@ -1,9 +1,9 @@
 <template>
   <div>
     <div :class="active ? 'modal is-active' : 'modal'">
-      <div class="modal-background"></div>
+      <div class="modal-background" @click="closeModal()"></div>
       <div class="modal-content columns">
-        <div class="column"></div>
+        <div class="column" @click="closeModal()"></div>
         <section
           class="hero is-white column is-three-fifths"
           style="border-radius: 10pt"
@@ -65,7 +65,7 @@
             </div>
           </div>
         </section>
-        <div class="column"></div>
+        <div class="column" @click="closeModal()"></div>
       </div>
       <button
         class="modal-close is-large"
