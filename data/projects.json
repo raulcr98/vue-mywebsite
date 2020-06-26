@@ -2,7 +2,7 @@
   {
     "name": "CubaPod",
     "img": "https://cubapod.net/img/cubapod.jpg",
-    "description": "Plataforma cubana de podcasting.",
+    "description": "Plataforma cubana de podcasting para dar visibilidad y unificar el trabajo de los creadores cubanos.",
     "url": "https://cubapod.net/",
     "tags": [
       "vue", "vuex", "buetify"
@@ -29,7 +29,7 @@
   {
     "name": "Unsplash Lite Searcher",
     "img": "https://raw.githubusercontent.com/raulcr98/unsplash-lite-searcher/master/logo.png",
-    "description": "Lite Searcher for Unsplash Plataform.",
+    "description": "Buscador de imágenes de Unsplash a través de su API con el objetivo de ahorrar internet, actualmente está en una versión mínima pero se pueden expandir sus funcionalidades.",
     "url": "https://raulcr98.me/unsplash-lite-searcher/",
     "tags": [
       "vue", "github-pages"
@@ -38,7 +38,7 @@
   {
     "name": "Fix Etecsa",
     "img": "https://raw.githubusercontent.com/dcs-community/fix-etecsa/master/icon.png",
-    "description": "Extensión para Chrome que se utiliza para conocer la cantidad de horas de la cuenta nauta se te han descontado de más por errores de ETECSA.",
+    "description": "Extensión para Chrome que se utiliza para conocer la cantidad de horas de una cuenta nauta que se descuentan de más por errores de ETECSA.",
     "url": "https://github.com/dcs-community/fix-etecsa",
     "tags": [
       "javascript", "chrome-extension"
