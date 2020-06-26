@@ -58,6 +58,11 @@ export default {
 
 .media-content:last-of-type {
   margin-top: 15px;
+  width: 100%;
+}
+
+.media-content a {
+  width: 100%;
 }
 
 .card-image {

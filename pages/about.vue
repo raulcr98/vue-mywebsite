@@ -9,10 +9,10 @@
           Desde pequeño estuve fuertemente interesado por conocer todo sobre las
           computadoras. La programación en aquel entonces no era más que un
           conjunto de palabras que carecían de significado para mí, todo hasta
-          que llegó a mis manos un libro de programación web. A día de hoy
-          conozco varios lenguajes de computación, me he involucrado en
-          competencias, grandes proyectos de software y mi vida se ha convertido
-          en estudio y continuo aprendizaje.
+          que llegó a mis manos un libro de desarrollo web. A día de hoy conozco
+          varios lenguajes de programación, me he involucrado en competencias,
+          grandes proyectos de software y mi vida se ha convertido en estudio y
+          continuo aprendizaje.
         </p>
       </div>
     </section>

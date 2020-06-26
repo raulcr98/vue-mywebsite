@@ -57,4 +57,8 @@ export default {
 .media-content:last-of-type {
   margin-top: 15px;
 }
+
+.media-content a {
+  width: 100%;
+}
 </style>
