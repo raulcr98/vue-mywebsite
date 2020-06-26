@@ -5,7 +5,7 @@
     "description": "Plataforma cubana de podcasting para dar visibilidad y unificar el trabajo de los creadores cubanos.",
     "url": "https://cubapod.net/",
     "tags": [
-      "vue", "vuex", "buetify"
+      "vue", "vuex", "buefy"
     ]
   },
   {
