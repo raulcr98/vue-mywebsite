@@ -1,9 +1,5 @@
 <template>
   <div>
-    <button class="button is-primary is-rounded" @click="active = true">
-      <strong>Suscríbete a mi boletín</strong>
-      <b-icon icon="mail" style="margin-left: 5pt"></b-icon>
-    </button>
     <div :class="active ? 'modal is-active' : 'modal'">
       <div class="modal-background"></div>
       <div class="modal-content columns">
@@ -82,13 +78,18 @@
 
 <script>
 export default {
+  props: {
+    active: {
+      type: Boolean,
+      default: () => false
+    }
+  },
   data() {
     return {
       form: {
         name: '',
         email: ''
-      },
-      active: false
+      }
     }
   },
   methods: {
@@ -130,7 +131,7 @@ export default {
         })
     },
     closeModal() {
-      this.active = false
+      this.$emit('close', {})
     }
   }
 }
