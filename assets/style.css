@@ -1,3 +1,7 @@
+a:hover, a:active, a::after {
+  color: #947600 !important;
+}
+
 .margin-bottom-20 {
   margin-bottom: 20pt;
 }
@@ -81,10 +85,6 @@
 
 .navbar-start a {
   border-bottom: 2px solid transparent;
-}
-
-.navbar-start a:hover {
-  border-bottom: 2px solid #7957d5;
 }
 
 @media only screen and (max-width: 768px) {

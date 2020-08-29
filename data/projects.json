@@ -1,11 +1,20 @@
 [
   {
+    "name": "Aeolus Fragrance",
+    "img": "https://aeolusfragrance.com/wp-content/uploads/2020/07/photo4920508083160066303.jpg",
+    "description": "Proyecto para que todos encuentren su fragancia ideal y donde queremos que usted lo sepa todo sobre este fascinante mundo.",
+    "url": "https://aeolusfragrance.com",
+    "tags": [
+      "wordpress", "bulma"
+    ]
+  },
+  {
     "name": "CubaPod",
     "img": "https://cubapod.net/img/cubapod.jpg",
     "description": "Plataforma cubana de podcasting para dar visibilidad y unificar el trabajo de los creadores cubanos.",
     "url": "https://cubapod.net/",
     "tags": [
-      "vue", "vuex", "buefy"
+      "vue", "nuxt", "buefy"
     ]
   },
   {
@@ -15,15 +24,6 @@
     "url": "https://binary-coffee.dev/",
     "tags": [
       "strapi", "angular", "monorepo"
-    ]
-  },
-  {
-    "name": "SaldoXpress",
-    "img": "http://saldoxpress.herokuapp.com/static/SaldoXpress.996d1edc4745.png",
-    "description": "Bot que conecta a vendedores de saldo y recargas con clientes potenciales. Permite a los usuarios ganar dinero con referidos.",
-    "url": "http://saldoxpress.herokuapp.com",
-    "tags": [
-      "django", "python-telegram-bot", "heroku"
     ]
   },
   {

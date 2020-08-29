@@ -10,9 +10,14 @@
             <nuxt-link to="/about/">sobre mí</nuxt-link>.
           </p>
           <div class="pt">
-            <a v-for="social in socials" :key="social.name" :href="social.url">
-              <span class="mr icon is-small">
-                <b-icon :icon="social.name"></b-icon>
+            <a
+              class="is-warning"
+              v-for="social in socials"
+              :key="social.name"
+              :href="social.url"
+            >
+              <span class="mr icon is-small is-warning">
+                <b-icon class="is-warning" :icon="social.name"></b-icon>
               </span>
             </a>
           </div>

@@ -19,12 +19,15 @@
           <b-navbar-item tag="router-link" :to="{ path: '/projects/' }">
             Proyectos
           </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ path: '/podcast/' }">
+            Pódcast
+          </b-navbar-item>
         </template>
         <template slot="end">
           <b-navbar-item tag="div">
             <div class="buttons">
               <button
-                class="button is-primary is-rounded"
+                class="button is-warning is-rounded"
                 @click="active = true"
               >
                 <strong>Suscríbete a mi boletín</strong>
