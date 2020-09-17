@@ -71,6 +71,9 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
+    ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-6595440746241172'
+    }],
 
     '@nuxtjs/axios',
 
