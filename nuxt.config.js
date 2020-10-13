@@ -10,7 +10,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https:/raulcr98.me/favicon.png'
+        href: '/favicon.png'
       }
     ],
     meta: [
@@ -23,43 +23,10 @@ export default {
         content:
           'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
       },
-      { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:site_name', name: 'og:site_name', content: 'Raúl C. Rivero' },
       {
-        hid: 'og:title',
-        name: 'og:title',
-        content: 'Raúl Castro Rivero | Desarrollador Web de Cuba | @raulcr98'
-      },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        content:
-          'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
-      },
-      {
-        name: 'og:image',
-        content: '/banner1.jpg'
-      },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@raulcr98' },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'Raúl Castro Rivero | Desarrollador Web de Cuba | @raulcr98'
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content:
-          'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
-      },
-      {
-        name: 'twitter:image',
-        content: '/banner1.jpg'
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
-        content: '@raulcr98'
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://raulcr98.me/banner1.jpg'
       }
     ]
   },
