@@ -3,11 +3,11 @@
     <div id="my-banner" class="hero is-white">
       <div class="hero-body">
         <div id="center" class="container">
-          <h1 class="title is-1">Raúl C. Rivero</h1>
+          <h1 class="title is-1">Raúl Castro Rivero</h1>
           <img class="photo" src="banner1.jpg" alt="" />
           <p class="pt has-text-centered">
             Hola mi nombre es Raúl y soy desarrollador web. Puedes leer más
-            <nuxt-link to="/about/">sobre mí</nuxt-link>.
+            <nuxt-link to="/acerca/">sobre mí</nuxt-link>.
           </p>
           <div class="pt">
             <a

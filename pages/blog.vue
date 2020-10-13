@@ -20,7 +20,9 @@
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <h2 class="title is-6">{{ post[4] }}: {{ post[1] }}</h2>
+                  <h2 class="title is-6">
+                    {{ post[4] ? `${post[4]}:` : '' }} {{ post[1] }}
+                  </h2>
                   <p aria-colcount="10" aria-rowcount="10">
                     {{ post[3].substr(0, 100) }}...
                   </p>
@@ -45,6 +47,26 @@ export default {
   data() {
     return {
       posts: require('~/data/posts.json').reverse()
+    }
+  },
+  head() {
+    return {
+      title: '💻 Blog de Raúl Castro Rivero | Desarrollador Web de Cuba | 2020',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Aquí están algunos de mis posts. Comparto principalmente mis experiencias sobre el mundo de la programación 💻.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://raulcr98.me/banner1.jpg'
+        }
+      ]
     }
   }
 }

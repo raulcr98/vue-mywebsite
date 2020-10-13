@@ -5,7 +5,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Raúl C. Rivero | Desarrollador Web de Cuba',
+    title: 'Raúl Castro Rivero | Desarrollador Web de Cuba | @raulcr98',
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'https:/raulcr98.me/favicon.png'
+      }
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,26 +20,41 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content:
+          'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
       },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Raúl C. Rivero' },
-      { hid: 'og:title', name: 'og:title', content: 'Raúl C. Rivero' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Raúl Castro Rivero | Desarrollador Web de Cuba | @raulcr98'
+      },
       {
         hid: 'og:description',
         name: 'og:description',
-        content: process.env.npm_package_description
+        content:
+          'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
+      },
+      {
+        name: 'og:image',
+        content: 'https://raulcr98.me/banner1.jpg'
       },
       { hid: 'twitter:site', name: 'twitter:site', content: '@raulcr98' },
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Raúl C. Rivero'
+        content: 'Raúl Castro Rivero | Desarrollador Web de Cuba | @raulcr98'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: process.env.npm_package_description
+        content:
+          'Hola, mi nombre es Raúl Castro Rivero, soy un desarrollador y emprendedor nacido en Cuba. Cuento con más de 8 años de experiencia en la web. Apasionado del Marketing y el SEO. @raulcr98'
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://raulcr98.me/banner1.jpg'
       },
       {
         hid: 'twitter:creator',
@@ -79,75 +101,6 @@ export default {
       '@nuxtjs/google-analytics',
       {
         id: 'UA-163331576-1'
-      }
-    ],
-
-    // Favicon
-    [
-      'nuxt-rfg-icon',
-      {
-        static: true,
-        staticPath: 'static',
-        masterPicture: 'static/favicon.png',
-        rfg: {
-          masterPicture: 'static/favicon.png',
-          iconsPath: '/',
-          design: {
-            ios: {
-              pictureAspect: 'noChange',
-              assets: {
-                ios6AndPriorIcons: false,
-                ios7AndLaterIcons: false,
-                precomposedIcons: false,
-                declareOnlyDefaultIcon: true
-              }
-            },
-            desktopBrowser: {},
-            windows: {
-              pictureAspect: 'noChange',
-              backgroundColor: '#FFDA17',
-              onConflict: 'override',
-              assets: {
-                windows80Ie10Tile: false,
-                windows10Ie11EdgeTiles: {
-                  small: false,
-                  medium: true,
-                  big: false,
-                  rectangle: false
-                }
-              }
-            },
-            androidChrome: {
-              pictureAspect: 'shadow',
-              themeColor: '#FFDA17',
-              manifest: {
-                name: 'Raúl C. Rivero',
-                startUrl: 'https://raulcr98.me',
-                display: 'standalone',
-                orientation: 'notSet',
-                onConflict: 'override',
-                declared: true
-              },
-              assets: {
-                legacyIcon: true,
-                lowResolutionIcons: false
-              }
-            },
-            safariPinnedTab: {
-              pictureAspect: 'blackAndWhite',
-              threshold: 66.40625,
-              themeColor: '#FFDA17'
-            }
-          },
-          settings: {
-            compression: 3,
-            scalingAlgorithm: 'Mitchell',
-            errorOnImageTooSmall: false,
-            readmeFile: true,
-            htmlCodeFile: true,
-            usePathAsIs: false
-          }
-        }
       }
     ]
   ],

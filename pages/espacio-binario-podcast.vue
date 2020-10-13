@@ -1,11 +1,12 @@
 <template>
   <div>
     <section class="section margin-top-20">
-      <h1 class="title has-text-centered">Pódcast Espacio Binario</h1>
+      <h1 class="title has-text-centered">Espacio Binario Pódcast</h1>
       <div class="container is-widescreen">
         <p class="has-text-centered margin-bottom-20">
-          Pódcast donde varios amigos nos reunimos a debatir sobre desarrollo y
-          tecnología. Escúchalo desde tu podcasher favorito.
+          Espacio Binario es un Pódcast donde varios amigos nos reunimos a
+          debatir sobre desarrollo y tecnología. Escúchalo desde tu podcasher
+          favorito.
         </p>
         <div v-if="loading" style="display: flex; justify-content: center">
           <atom-spinner
@@ -93,6 +94,26 @@ export default {
       })
     return {
       episodes
+    }
+  },
+  head() {
+    return {
+      title: '🔥 Espacio Binario Pódcast | Raúl Castro Rivero | 2020',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Espacio Binario Pódcast ☊ es un podcast sobre tecnología y desarrollo producido por cubanos 🇨🇺. Conoce la actualidad tecnológica de Cuba. Los integrantes de Binary Coffee ✔️ te comentamos sobre las tecnologías de la informática y la programación según nuestra experiencia.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://raulcr98.me/banner1.jpg'
+        }
+      ]
     }
   }
 }

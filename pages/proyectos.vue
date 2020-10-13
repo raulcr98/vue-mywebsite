@@ -4,7 +4,7 @@
       <h1 class="title has-text-centered">Mis Proyectos</h1>
       <div class="container is-widescreen">
         <p class="has-text-centered margin-bottom-20">
-          Algunos de los proyectos en los que he estado trabajando
+          Algunos de los proyectos en los que he estado trabajando.
         </p>
         <div id="projects" class="columns is-12">
           <div
@@ -53,6 +53,27 @@ export default {
   data() {
     return {
       projects: require('~/data/projects.json')
+    }
+  },
+  head() {
+    return {
+      title:
+        '💻 Proyectos de Raúl Castro Rivero | Desarrollador Web de Cuba | 2020',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Conoce algunos de los proyectos 🖥️ en los que he estado trabajando hace algún tiempo.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://raulcr98.me/banner1.jpg'
+        }
+      ]
     }
   }
 }
