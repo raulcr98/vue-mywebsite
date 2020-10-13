@@ -70,30 +70,39 @@ export default {
     AtomSpinner
   },
   data() {
-    this.loading = true
-    const RSS_URL = `https://cors-anywhere.herokuapp.com/https://anchor.fm/s/1c6df2b0/podcast/rss`
-    const episodes = []
-    fetch(RSS_URL)
-      .then((response) => response.text())
-      .then((str) => new window.DOMParser().parseFromString(str, 'text/xml'))
-      .then((data) => {
-        console.log(data)
-        const items = data.querySelectorAll('item')
-        items.forEach((el) => {
-          episodes.push([
-            {
-              link: el.querySelector('link').innerHTML,
-              title: el.querySelector('title').innerHTML,
-              img:
-                'https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/4669676/4669676-1586574061149-68b8b3e2af157.jpg',
-              description: el.querySelector('description').innerHTML
-            }
-          ])
-          this.loading = false
-        })
-      })
     return {
-      episodes
+      episodes: [],
+      loading: true
+    }
+  },
+  mounted() {
+    this.loadEpisodes()
+  },
+  methods: {
+    loadEpisodes() {
+      this.loading = true
+      const RSS_URL = `https://cors-anywhere.herokuapp.com/https://anchor.fm/s/1c6df2b0/podcast/rss`
+      const episodes = []
+      fetch(RSS_URL)
+        .then((response) => response.text())
+        .then((str) => new window.DOMParser().parseFromString(str, 'text/xml'))
+        .then((data) => {
+          console.log(data)
+          const items = data.querySelectorAll('item')
+          items.forEach((el) => {
+            episodes.push([
+              {
+                link: el.querySelector('link').innerHTML,
+                title: el.querySelector('title').innerHTML,
+                img:
+                  'https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/4669676/4669676-1586574061149-68b8b3e2af157.jpg',
+                description: el.querySelector('description').innerHTML
+              }
+            ])
+            this.loading = false
+          })
+          this.episodes = episodes
+        })
     }
   },
   head() {

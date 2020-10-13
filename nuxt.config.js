@@ -1,4 +1,6 @@
 export default {
+  serverMiddleware: ['~/servermiddleware/seo.js'],
+
   mode: 'universal',
 
   /*
@@ -10,7 +12,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.png'
+        href: 'https://raulcr98.me/favicon.png'
       }
     ],
     meta: [
