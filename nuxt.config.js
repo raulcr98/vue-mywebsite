@@ -38,7 +38,7 @@ export default {
       },
       {
         name: 'og:image',
-        content: 'https://raulcr98.me/banner1.jpg'
+        content: '/banner1.jpg'
       },
       { hid: 'twitter:site', name: 'twitter:site', content: '@raulcr98' },
       {
@@ -54,7 +54,7 @@ export default {
       },
       {
         name: 'twitter:image',
-        content: 'https://raulcr98.me/banner1.jpg'
+        content: '/banner1.jpg'
       },
       {
         hid: 'twitter:creator',
