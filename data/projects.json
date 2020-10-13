@@ -30,7 +30,7 @@
     "name": "Unsplash Lite Searcher",
     "img": "https://raw.githubusercontent.com/raulcr98/unsplash-lite-searcher/master/logo.png",
     "description": "Buscador de imágenes de Unsplash a través de su API con el objetivo de ahorrar internet, actualmente está en una versión mínima pero se pueden expandir sus funcionalidades.",
-    "url": "https://raulcr98.me/unsplash-lite-searcher/",
+    "url": "https://raulcr98.github.io/unsplash-lite-searcher/",
     "tags": [
       "vue", "github-pages"
     ]

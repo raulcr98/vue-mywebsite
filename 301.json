@@ -4,8 +4,5 @@
     { "from": "/projects", "to": "/proyectos" },
     { "from": "/about/", "to": "/acerca" },
     { "from": "/podcast/", "to": "/espacio-binario-podcast" },
-    { "from": "/projects/", "to": "/proyectos" },
-    { "from": "/acerca/", "to": "/acerca" },
-    { "from": "/espacio-binario-podcast/", "to": "/espacio-binario-podcast" },
-    { "from": "/proyectos/", "to": "/proyectos" }
+    { "from": "/projects/", "to": "/proyectos" }
 ]
