@@ -223,5 +223,23 @@
         "",
         "https://binary-coffee.dev/post/estos-los-mejores-programadores-del-mundo",
         1
+    ],
+    [
+        25,
+        "DESPLIEGA NUXT A GITHUB PAGES EN 2020",
+        "https://api.binary-coffee.dev/uploads/Azul_Marketing_Estrategias_Blog_Banner_41e3eb6628.png",
+        "Nuxt es un framework web basado en Vue.js, Node.js, Webpack y Babel.js. Viene a solucionar el tema de las configuraciones, que eran mucho más complicadas con Vue.js, ya que hace que este proceso sea realmente fácil y muy sencillo.",
+        "",
+        "https://binary-coffee.dev/post/desplegar-nuxt-github-pages",
+        1
+    ],
+    [
+        26,
+        "HOSTING GRATIS: PLATAFORMAS PARA TUS PROYECTOS FRONTEND",
+        "https://api.binary-coffee.dev/uploads/Negro_Blanco_Foto_Luna_Blog_Banner_2_827e8fc198.png",
+        "Vivo en Cuba un país muy atrasado en cuestiones tecnológicas, por ello cada día los emprendedores encuentran cientos de ideas que solucionan problemas de la sociedad y muchos nunca llegan a implementarlas.",
+        "",
+        "https://binary-coffee.dev/post/hosting-gratis",
+        1
     ]
 ]

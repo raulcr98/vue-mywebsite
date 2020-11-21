@@ -1,7 +1,7 @@
 <template>
   <div>
     <template>
-      <b-navbar fixed-top shadow>
+      <b-navbar fixed-top shadow class="is-dark">
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
             <figure class="img">
@@ -43,6 +43,29 @@
     </template>
     <nuxt />
     <Subscribe :active="active" @close="closeModal" />
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Raúl Rubén Castro Rivero</strong>. The website content is
+          licensed
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+          >.
+        </p>
+        <div class="pt">
+          <a
+            v-for="social in socials"
+            :key="social.name"
+            class="is-warning"
+            :href="social.url"
+          >
+            <span class="mr icon is-small is-warning">
+              <b-icon class="is-warning" :icon="social.name"></b-icon>
+            </span>
+          </a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -52,7 +75,8 @@ export default {
   components: { Subscribe },
   data() {
     return {
-      active: false
+      active: false,
+      socials: require('~/data/social.json')
     }
   },
   methods: {
@@ -62,3 +86,18 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+footer {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black !important;
+}
+
+a {
+  color: #ffdd57;
+}
+</style>

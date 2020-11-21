@@ -28,7 +28,7 @@
                   </p>
                 </div>
                 <div class="media-content">
-                  <a class="button is-dark" :href="post[5]">
+                  <a class="button is-dark" rel="nofollow" :href="post[5]">
                     <b-icon icon="book" style="margin-right: 5px"> </b-icon>
                     Leer
                   </a>
