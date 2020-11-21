@@ -50,7 +50,7 @@
                 </p>
                 <div class="media-content">
                   <a class="button is-black is-ligth" :href="episode[0].link">
-                    <b-icon icon="eye" style="margin-right: 5px"> </b-icon>
+                    <b-icon icon="podcast" style="margin-right: 5px"> </b-icon>
                     Escúchalo!
                   </a>
                 </div>
