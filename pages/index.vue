@@ -5,10 +5,10 @@
         <div id="center" class="container">
           <h1 class="title is-1 has-text-centered">Raúl Castro Rivero</h1>
           <img class="photo" src="banner1.jpg" alt="" />
-          <p class="margin-top-20">
+          <p class="margin-top-20 has-text-centered">
             Hola mi nombre es Raúl y soy un emprendedor cubano.
           </p>
-          <div class="columns margin-top-20 links">
+          <div class="columns margin-top-20 links has-text-centered">
             <nuxt-link to="/acerca">Acerca de mí</nuxt-link> ૰
             <nuxt-link to="/blog">Blog</nuxt-link> ૰
             <nuxt-link to="/proyectos">Proyectos</nuxt-link> ૰
@@ -251,6 +251,20 @@
             </figure>
           </a>
         </nav>
+        <div class="columns margin-top-20">
+          <div class="column"></div>
+          <div class="column is-6">
+            <a
+              href="mailto: codevrah@gmail.com"
+              class="button is-black is-rounded is-large"
+              style="width: 100% !important; color: white !important;"
+            >
+              <b-icon icon="email" style="margin-left: 5pt"></b-icon>
+              <strong>Contáctame</strong>
+            </a>
+          </div>
+          <div class="column"></div>
+        </div>
       </div>
     </section>
     <section class="hero is-medium is-warning">
