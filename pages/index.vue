@@ -318,6 +318,7 @@
         </div>
       </div>
     </section>
+    <!--
     <section class="section contact">
       <h2 class="title is-3 has-text-centered">Escucha Espacio Binario</h2>
       <br />
@@ -344,6 +345,7 @@
         <div class="column"></div>
       </div>
     </section>
+    -->
   </div>
 </template>
 
