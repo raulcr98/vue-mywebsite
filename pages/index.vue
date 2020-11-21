@@ -267,7 +267,7 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium is-warning">
+    <section class="hero is-medium is-warning is-bold">
       <div class="hero-body">
         <h2 class="title is-3 has-text-centered">Últimos artículos</h2>
         <p class="has-text-centered">
@@ -316,6 +316,32 @@
           </div>
           <div class="column"></div>
         </div>
+      </div>
+    </section>
+    <section class="section contact">
+      <h2 class="title is-3 has-text-centered">Escucha Espacio Binario</h2>
+      <br />
+      <iframe
+        style="align-self: center"
+        src="https://anchor.fm/espaciobinario/embed"
+        height="102px"
+        width="100%"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column is-6">
+          <nuxt-link
+            to="/espacio-binario-podcast"
+            class="button is-black is-rounded is-large"
+            style="width: 100% !important; color: white !important;"
+          >
+            <b-icon icon="podcast" style="margin-left: 5pt"></b-icon>
+            <strong>Escuchar Otros</strong>
+          </nuxt-link>
+        </div>
+        <div class="column"></div>
       </div>
     </section>
   </div>
@@ -422,5 +448,11 @@ a,
 .links a {
   margin-left: 7px;
   margin-right: 7px;
+}
+
+.contact {
+}
+
+.contact div {
 }
 </style>
