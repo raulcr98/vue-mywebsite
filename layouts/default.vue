@@ -1,7 +1,7 @@
 <template>
   <div>
     <template>
-      <b-navbar fixed-top shadow class="is-dark">
+      <b-navbar fixed-top class="is-black">
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
             <figure class="img">

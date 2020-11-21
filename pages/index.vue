@@ -3,21 +3,19 @@
     <div id="my-banner" class="hero is-black is-bold is-medium">
       <div class="hero-body">
         <div id="center" class="container">
-          <h1 class="title is-1">Raúl Castro Rivero</h1>
+          <h1 class="title is-1 has-text-centered">Raúl Castro Rivero</h1>
           <img class="photo" src="banner1.jpg" alt="" />
-
-          <!--<div class="pt">
-            <a
-              v-for="social in socials"
-              :key="social.name"
-              class="is-warning"
-              :href="social.url"
+          <p class="margin-top-20">
+            Hola mi nombre es Raúl y soy un emprendedor cubano.
+          </p>
+          <div class="columns margin-top-20 links">
+            <nuxt-link to="/acerca">Acerca de mí</nuxt-link> ૰
+            <nuxt-link to="/blog">Blog</nuxt-link> ૰
+            <nuxt-link to="/proyectos">Proyectos</nuxt-link> ૰
+            <nuxt-link to="/espacio-binario-podcast"
+              >Escucha Espacio Binario</nuxt-link
             >
-              <span class="mr icon is-small is-warning">
-                <b-icon class="is-warning" :icon="social.name"></b-icon>
-              </span>
-            </a>
-          </div>-->
+          </div>
         </div>
       </div>
     </div>
@@ -29,7 +27,8 @@
               <strong>SEO</strong>
             </p>
             <p class="subtitle is-6">
-              Optimización seo de páginas web para aumentar el ranking en Google
+              Optimización seo de páginas web para aumentar el ranking en
+              buscadores
             </p>
             <figure class="bd-focus-icon">
               <span class="bd-focus-mobile icon is-large">
@@ -291,44 +290,20 @@
 
         <div class="columns margin-top-20">
           <div class="column"></div>
-          <button
-            class="column is-6 button is-black is-rounded is-large"
-            @click="active = true"
-          >
-            <b-icon icon="bookmark" style="margin-left: 5pt"></b-icon>
-            <strong>Lee otros artículos</strong>
-          </button>
+          <div class="column is-6">
+            <nuxt-link
+              to="/blog"
+              class="button is-black is-rounded is-large"
+              style="width: 100% !important; color: white !important;"
+            >
+              <b-icon icon="bookmark" style="margin-left: 5pt"></b-icon>
+              <strong>Lee otros artículos</strong>
+            </nuxt-link>
+          </div>
           <div class="column"></div>
         </div>
       </div>
     </section>
-    <!--<h2 class="title is-3 has-text-centered margin-top-20">Mis servicios</h2>
-    <div class="container margin-bottom-20 services">
-      <div class="service">
-        <img src="/design.png" alt="" />
-        <div>
-          <h3 class="title is-5 has-text-centered">
-            Diseño y desarrollo de sitios webs
-          </h3>
-        </div>
-      </div>
-      <div class="service">
-        <img src="/writing.png" alt="" />
-        <div>
-          <h3 class="title is-5 has-text-centered">
-            Redacción de textos Seo-Optimizados
-          </h3>
-        </div>
-      </div>
-      <div class="service">
-        <img src="/keyword.png" alt="" />
-        <div>
-          <h3 class="title is-5 has-text-centered">
-            Búsqueda de palabras clave
-          </h3>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 
@@ -428,5 +403,10 @@ a,
 
 .margin-bottom-20 {
   margin-bottom: 60pt !important;
+}
+
+.links a {
+  margin-left: 7px;
+  margin-right: 7px;
 }
 </style>

@@ -46,7 +46,7 @@
 export default {
   data() {
     return {
-      posts: require('~/data/posts.json').reverse()
+      posts: require('~/data/posts.json')
     }
   },
   head() {
