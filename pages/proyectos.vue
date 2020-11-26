@@ -34,11 +34,7 @@
                   </span>
                 </div>
                 <div class="media-content">
-                  <a
-                    class="button is-black"
-                    style="width: 120px"
-                    :href="project.url"
-                  >
+                  <a class="button is-black" :href="project.url">
                     <b-icon icon="eye" style="margin-right: 5px"> </b-icon>
                     Ver
                   </a>

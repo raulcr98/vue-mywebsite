@@ -30,7 +30,7 @@
           <b-navbar-item tag="div">
             <div class="buttons">
               <button
-                class="button is-warning is-rounded"
+                class="button is-black is-secondary is-rounded"
                 @click="active = true"
               >
                 <strong>Suscríbete a mi boletín</strong>
@@ -46,8 +46,8 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Raúl Rubén Castro Rivero</strong>. The website content is
-          licensed
+          <strong style="color: white">Raúl Castro</strong>. The website content
+          is licensed
           <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
             >CC BY NC SA 4.0</a
           >.
@@ -95,9 +95,15 @@ footer {
   justify-content: center;
   align-items: center;
   background: black !important;
+  color: white;
 }
 
 a {
-  color: #ffdd57;
+  color: #ffd26a;
+}
+
+.is-secondary {
+  background: #ffd26a;
+  color: #393d46;
 }
 </style>

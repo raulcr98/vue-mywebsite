@@ -3,7 +3,9 @@
     <div id="my-banner" class="hero is-black is-bold is-medium">
       <div class="hero-body">
         <div id="center" class="container">
-          <h1 class="title is-1 has-text-centered">Raúl Castro Rivero</h1>
+          <h1 class="title is-primary is-1 has-text-centered">
+            Raúl Castro Rivero
+          </h1>
           <img class="photo" src="banner1.jpg" alt="" />
           <p class="margin-top-20 has-text-centered">
             Hola mi nombre es Raúl y soy un emprendedor cubano.
@@ -267,9 +269,9 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium is-warning is-bold">
+    <section class="hero is-medium is-secondary is-bold">
       <div class="hero-body">
-        <h2 class="title is-3 has-text-centered">Últimos artículos</h2>
+        <h2 class="title is-2 has-text-centered">Últimos artículos</h2>
         <p class="has-text-centered">
           Lee mis últimos artículos publicados en diferentes sitios webs.
         </p>
@@ -318,34 +320,6 @@
         </div>
       </div>
     </section>
-    <!--
-    <section class="section contact">
-      <h2 class="title is-3 has-text-centered">Escucha Espacio Binario</h2>
-      <br />
-      <iframe
-        style="align-self: center"
-        src="https://anchor.fm/espaciobinario/embed"
-        height="102px"
-        width="100%"
-        frameborder="0"
-        scrolling="no"
-      ></iframe>
-      <div class="columns">
-        <div class="column"></div>
-        <div class="column is-6">
-          <nuxt-link
-            to="/espacio-binario-podcast"
-            class="button is-black is-rounded is-large"
-            style="width: 100% !important; color: white !important;"
-          >
-            <b-icon icon="podcast" style="margin-left: 5pt"></b-icon>
-            <strong>Escuchar Otros</strong>
-          </nuxt-link>
-        </div>
-        <div class="column"></div>
-      </div>
-    </section>
-    -->
   </div>
 </template>
 
@@ -388,8 +362,8 @@ export default {
 
 <style scoped>
 b-carousel-item figure {
-  max-height: 300px !important;
-  min-height: 300px !important;
+  max-height: 500px !important;
+  min-height: 500px !important;
 }
 
 .hero-body.carousel {
@@ -436,7 +410,7 @@ h2 {
 
 a,
 .indicator-item {
-  color: #ffdd57 !important;
+  color: #ffd26a !important;
 }
 
 .bd-focus-item {
@@ -452,9 +426,12 @@ a,
   margin-right: 7px;
 }
 
-.contact {
+.is-secondary {
+  background: #ffd26a !important;
 }
 
-.contact div {
+p {
+  font-size: 20px;
+  font-family: 'Roboto', serif;
 }
 </style>
